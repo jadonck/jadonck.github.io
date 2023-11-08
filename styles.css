@@ -16,3 +16,18 @@ body {
         width: 200px;
         padding: 10px;
         }
+a {
+ text-decoration: none;
+ color: midnightblue; 
+}
+.assign img {
+ padding: 10px;
+ border: 2px solid midnightblue;
+}
+assign {
+ border-radius: 20px;
+}
+a:hover {
+ text-decoration: none;
+ color: gold;
+}
