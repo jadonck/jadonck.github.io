@@ -1,33 +1,53 @@
 body {
     background: teal;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
     }
     h1 {
     color: black;
     text-align: center;
+    width: 100%;
+    display: block;
+    }
+    h1:hover {
+    color: gold;
+    text-align: center;
+    width: 100%;
+    display: block;
+    }
+    .assign {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    background-color: gray;
+    border-radius: 20px;
+    width: 20%;
+    box-shadow: 8px 8px midnightblue;
+    }
+    .assign img {
+    width: 200px;
+    padding: 10px;
+        }
+    a {
+    text-decoration: none;
+    color: midnightblue; 
+    }
+    .assign img {
+    padding: 10px;
+    border: 2px solid midnightblue;
+    width: 200px;
+    margin: 10px;
     }
     assign {
-        display: flex;
-        padding: 10px;
-        margin: 10px;
-        background: gray;
-        }
-        .assign img {
-        width: 200px;
-        padding: 10px;
-        }
-a {
- text-decoration: none;
- color: midnightblue; 
-}
-.assign img {
- padding: 10px;
- border: 2px solid midnightblue;
-}
-assign {
- border-radius: 20px;
-}
-a:hover {
- text-decoration: none;
- color: gold;
-}
+    border-radius: 20px;
+    }
+    a:hover {
+    text-decoration: none;
+    color: gold;
+    }
+    .assign img:hover {
+    width: 200px;
+    margin: 10px;
+    border: 2px dotted gold;
+    }
